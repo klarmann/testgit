@@ -8,12 +8,15 @@ $ git init
 $ git add filename
 
 tian jia wenjian dao git
+添加文件到仓库
 
 $ git commit
 
 gao su git ba wen jian ti jiao dao cang ku.
+告诉git 把文件添加到仓库
 
 she zhi quan ju pei zhi, cai neng "commit"
+设置全局配置 才能提交成功
 
 $ git config --global user.name "klarmann"
 $ git config --global user.email "klarmann.de@gmail.com"
@@ -23,5 +26,30 @@ $ git config --global user.email "klarmann.de@gmail.com"
 $ git status
 
 cha kan cang ku zhuang tai.
+查看仓库状态
 
 $ git diff xiang_yao_cha_kan_wen_jian
+
+看不同
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+版本回退
+
+现在想看一下历史记录如何呢。
+$ git log
+
+也可以用 图形了 嘿嘿， gitk
+
+可以简化一下输出
+$ git log --pretty=oneline
+
+现在想要版本回退
+
+$git reset --hard HEAD^
+
+这是回退上一个版本， 回退几个版本 就加上几个 ^ 如 两个 就是 ... HEAD^^
+
+多版本回退 ， 回退 100 版本
+$git reset --hard HEAD~100
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
