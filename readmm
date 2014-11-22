@@ -4,3 +4,24 @@
 $ git init  
 
 在要成为仓库的文件夹下执行这个命令，生成一个目录 .git/ 他是来跟踪管理版本的
+
+$ git add filename
+
+tian jia wenjian dao git
+
+$ git commit
+
+gao su git ba wen jian ti jiao dao cang ku.
+
+she zhi quan ju pei zhi, cai neng "commit"
+
+$ git config --global user.name "klarmann"
+$ git config --global user.email "klarmann.de@gmail.com"
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+$ git status
+
+cha kan cang ku zhuang tai.
+
+$ git diff xiang_yao_cha_kan_wen_jian
